@@ -23,6 +23,8 @@ This returns the values of the counterclockwise readings as a numpy array.
 Python: qc20('path\filename')
 
 ### Example
+import qc20
+
 reni = qc20('YZ_220grad_150mm-120924.b5r')
 
 array = reni.readings()
