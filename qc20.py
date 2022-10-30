@@ -101,11 +101,3 @@ class qc20:
                     arr[0][values] = directions_values[values]
 
                 return arr
-
-
-reni = qc20('YZ 220grad 150mm Calibrado 20221011-120924.b5r')
-
-a = reni.readings()
-
-print(a)
-
